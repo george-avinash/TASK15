@@ -1,0 +1,65 @@
+        
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b4d7bd;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px #666;
+
+}
+#pagination {
+    width: 500px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#item-list li {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#pagination-container {
+    margin-top: 20px;
+   
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+button[id="next-page"]:hover{
+    transform: rotate(5deg);
+}
+button[id="prev-page"]:hover{
+  transform: rotate(-5deg);
+}
